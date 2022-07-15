@@ -57,9 +57,9 @@ public class ResourceCentreTest {
 		assertSame("Test that Camcorder is added same as 3rd item of the list?", cc3, camcorderList.get(2));
 	}
 	@Test
-	public void testAddChromebook() {
-		//fail("Not yet implemented");
-		// write your code here 
+	public static void addChromebook(ArrayList<Chromebook> chromebookList, Chromebook cb) {
+		chromebookList.add(cb);
+		System.out.println("Chromebook added");
 	}
 	
 	@Test
